@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Details </title>
+    <link rel="stylesheet" href="../dist/output.css" />
+</head>
+<body>
+    <main class="flex flex-col justify-evenly items-center h-full">
+        <ul class="steps">
+            <li class="step step-success">Personal Details</li>
+            <li class="step step-success">Choose plan</li>
+            <li class="step">Purchase</li>
+            <li class="step">Receive Product</li>
+        </ul>
+
+        <div class="card w-1/2 bg-base-100 shadow-xl">
+            <div class="card-body items-start text-center ">
+                <label class="label" for="name">Name of student</label>
+                <input type="text" placeholder="Name" class="input input-bordered w-full " />
+                <label class="label" for="date">State</label>
+                <input type="text" placeholder="state" class="input input-bordered w-full " />
+                <label class="label" for="Month">Month of year of passing</label>
+                <input type="text" placeholder="Month of year of passing" class="input input-bordered w-full " />
+                <div class="w-full flex justify-around gap-1">
+                    <div class="flex flex-col">
+                        <label class="label" for="name">Total Marks Obtained</label>
+                        <input type="number" placeholder="Total Marks Obtained" class="input input-bordered w-full max-w-xs" />
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="label" for="name">Out of Total Marks</label>
+                        <input type="number" placeholder="Out of Total Marks" class="input input-bordered w-full max-w-xs" />
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="label" for="name">Percentage</label>
+                        <input type="number" placeholder="Percentage" class="input input-bordered w-full max-w-xs" />
+                    </div>
+
+                </div>
+                <div class="card-actions w-full">
+                    <button class="btn btn-success btn-block">Next</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
